@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_vmadmin_name": {
+            "value": null
+        },
+        "networkInterfaces_vmadmin951_name": {
+            "value": null
+        },
+        "publicIPAddresses_vmadmin_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_vmadmin_vnet_name": {
+            "value": null
+        },
+        "storageAccounts_vmadmindiag630_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vmadmin_nsg_name": {
+            "value": null
+        },
+        "schedules_shutdown_computevm_vmadmin_name": {
+            "value": null
+        },
+        "subnets_default_name": {
+            "value": null
+        },
+        "disks_vmadmin_disk1_adc67c08df3842459f50827469133390_name": {
+            "value": null
+        },
+        "securityRules_Port_3389_name": {
+            "value": null
+        },
+        "securityRules_default_allow_ssh_name": {
+            "value": null
+        },
+        "disks_vmadmin_disk1_adc67c08df3842459f50827469133390_sourceUri": {
+            "value": null
+        },
+        "virtualMachines_vmadmin_id": {
+            "value": null
+        }
+    }
+}
