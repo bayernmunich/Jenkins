@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "virtualMachines_vmadmin_name": {
-            "defaultValue": "",
+            "defaultValue": "Null",
             "type": "String"
         },
         "networkInterfaces_vmadmin951_name": {
