@@ -10,3 +10,9 @@ This lab shows how you can integrate Team Servcies and Jenkins. You can store yo
 
 ## Setting up the project
 1. Lets set up a Jenkins VM on Azure
+
+    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbayernmunich%2FJenkins%2Fmaster%2Ftemplate.json">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+    </a>
+
+
