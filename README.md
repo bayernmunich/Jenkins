@@ -7,3 +7,6 @@ This lab shows how you can integrate Team Servcies and Jenkins. You can store yo
 1.  You need a <b>Visual Studio Team Services Account</b> and <a href="http://bit.ly/2gBL4r4">Personal Access Token</a>
 ## Setting up the project
 1. Lets set up a Jenkins VM on Azure
+
+## Setting up the project
+1. Lets set up a Jenkins VM on Azure
