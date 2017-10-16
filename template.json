@@ -2,55 +2,15 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "virtualMachines_vmadmin_name": {
+        "virtualMachines": {
             "defaultValue": "vmadmin",
             "type": "String"
         },
-        "networkInterfaces_vmadmin951_name": {
+        "password": {
             "defaultValue": "vmadmin951",
-            "type": "String"
+            "type": "securestring"
         },
-        "publicIPAddresses_vmadmin_ip_name": {
-            "defaultValue": "vmadmin-ip",
-            "type": "String"
-        },
-        "virtualNetworks_vmadmin_vnet_name": {
-            "defaultValue": "vmadmin-vnet",
-            "type": "String"
-        },
-        "storageAccounts_vmadmindiag630_name": {
-            "defaultValue": "vmadmindiag630",
-            "type": "String"
-        },
-        "networkSecurityGroups_vmadmin_nsg_name": {
-            "defaultValue": "vmadmin-nsg",
-            "type": "String"
-        },
-        "schedules_shutdown_computevm_vmadmin_name": {
-            "defaultValue": "shutdown-computevm-vmadmin",
-            "type": "String"
-        },
-        "subnets_default_name": {
-            "defaultValue": "default",
-            "type": "String"
-        },
-        "disks_vmadmin_disk1_adc67c08df3842459f50827469133390_name": {
-            "defaultValue": "vmadmin_disk1_adc67c08df3842459f50827469133390",
-            "type": "String"
-        },
-        "securityRules_Port_3389_name": {
-            "defaultValue": "Port_3389",
-            "type": "String"
-        },
-        "securityRules_default_allow_ssh_name": {
-            "defaultValue": "default-allow-ssh",
-            "type": "String"
-        },
-        "disks_vmadmin_disk1_adc67c08df3842459f50827469133390_sourceUri": {
-            "defaultValue": "/subscriptions/bd6bd12d-6929-43df-a6b4-edeca09e8a71/resourceGroups/ImageJenkins/providers/Microsoft.Compute/snapshots/JenkinsOnUbuntu-image-20171016104522_kzq4nmanbhp",
-            "type": "String"
-        },
-        "virtualMachines_vmadmin_id": {
+    "virtualMachines_vmadmin_id": {
             "defaultValue": "/subscriptions/bd6bd12d-6929-43df-a6b4-edeca09e8a71/resourceGroups/ImageJenkins/providers/Microsoft.Compute/images/JenkinsOnUbuntu-image-20171016104522",
             "type": "String"
         }
